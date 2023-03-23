@@ -1,7 +1,7 @@
 
 
 <template>
-<h1>app.vue</h1>
+<router-view />
 </template>
 
 <script setup>
