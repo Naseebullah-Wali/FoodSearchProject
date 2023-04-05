@@ -5,7 +5,7 @@ import MailList from '../views/MailList.vue'
 const routes = [
     {
         path: '/',
-        name: 'Home',
+        name: 'home',
         component: Home
     },
     {
@@ -15,9 +15,10 @@ const routes = [
     },
     {
         path: '/letter/:letter',
-        name: 'byletter',
+        name: 'byLetter',
         component: MailList
     },
+    
 
 
 ];
