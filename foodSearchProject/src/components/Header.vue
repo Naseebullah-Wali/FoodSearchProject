@@ -8,19 +8,19 @@
       </router-link>
       <div class="flex items-center gap-1">
         <router-link
-          :to="{ name: 'About' }"
+          :to="{ name: 'byName' }"
           class="inline-flex items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
         >
           Search Meals
         </router-link>
         <router-link
-          :to="{ name: 'home' }"
+          :to="{ name: 'byLetter' }"
           class="inline-flex items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
         >
           Meals By Letter
         </router-link>
         <router-link
-          :to="{ name: 'about' }"
+          :to="{ name: 'byIngredient' }"
           class="inline-flex items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
         >
           Meals By Ingredients
@@ -28,3 +28,4 @@
       </div>
     </header>
   </template>
+

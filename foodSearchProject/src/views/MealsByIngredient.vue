@@ -1,5 +1,5 @@
 <template>
-    <h1>Mail list {{ letter }}</h1>
+    <h1> ingredents {{ letter }}</h1>
 </template>
 <script setup>
 </script>

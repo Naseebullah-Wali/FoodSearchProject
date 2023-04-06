@@ -1,5 +1,5 @@
 <template>
-    <h1>Mail list {{ letter }}</h1>
+    <h1>search by letters {{ letter }}</h1>
 </template>
 <script setup>
 </script>
