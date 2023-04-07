@@ -5,7 +5,10 @@
       </header>
 
       <main>
+        <dev class="max-w-[1200px] mx-auto">
           <router-view/>
+        </dev>
+          
       </main>
 
       <footer>
