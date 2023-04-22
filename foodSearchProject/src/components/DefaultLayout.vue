@@ -1,7 +1,7 @@
 <template>
-    <section class="bg-gray-100 h-full">
+    <section class="bg-gray-100 h-full" >
       <header class="bg-white shadow-md h-16">
-        <Head></Head>
+        <Head v-if="!nav"></Head>
       </header>
 
       <main>
@@ -18,9 +18,32 @@
 
   </section>
 </template>
-<script setup>
+<script >
 import Head from './Header.vue'
-components :{
+export default{
+  data: function (){
+   return{
+     nav: null
+   }
+  },
+  components :{
   Head
+  },
+  methods:{
+   checkRoute(){
+     if(this.$route.name === "login" || this.$route.name === "register"){
+       return this.nav = true
+     }
+     this.nav = false;
+   }
+  },
+  watch:{
+   $route(){
+     this.checkRoute();
+   }
+  }
+  
 }
+
+
 </script>
