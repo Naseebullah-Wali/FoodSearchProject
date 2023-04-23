@@ -11,7 +11,7 @@ import Ingredients from '../views/Ingredients.vue'
 import MealDetails from '../views/MealDetails.vue'
 import login from '../views/login.vue'
 import register from '../views/register.vue'
-
+import PageNotFound from '../views/PageNotFound.vue'
 const routes = [
     {
       path: '/',
@@ -56,6 +56,14 @@ const routes = [
           path: '/register',
           name: 'register',
           component: register
+        },
+        {
+          path: '/:pathMatch(.*)*',
+          name: "PageNotFound",
+          component: PageNotFound,
+          meta:{
+            title: 'PageNotFound'
+          }
         }
       ]
     },

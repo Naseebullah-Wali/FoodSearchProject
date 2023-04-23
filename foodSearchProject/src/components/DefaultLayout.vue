@@ -31,7 +31,7 @@ export default{
   },
   methods:{
    checkRoute(){
-     if(this.$route.name === "login" || this.$route.name === "register"){
+     if(this.$route.name === "login" || this.$route.name === "register" || this.$route.name === "PageNotFound"){
        return this.nav = true
      }
      this.nav = false;

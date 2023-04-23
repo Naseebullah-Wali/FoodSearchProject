@@ -2,5 +2,6 @@ export default {
    searchedMeals: [],
    mealsByLetter: [],
    mealsByIngredient: [],
-   ingredient: {}
+   ingredient: {},
+   currentUser: null
  }
