@@ -63,7 +63,7 @@ methods: {
             if (response.status === 200) {
                 await this.$store.dispatch('updateCurrentUser',response.data.firstName)
                 this.$router.push({name:"home"})
-                console.log(this.$store.state.currentUser)
+                // console.log(this.$store.state.currentUser)
             } else {
                 this.error = true
                 this.errorMsg = response.data.message

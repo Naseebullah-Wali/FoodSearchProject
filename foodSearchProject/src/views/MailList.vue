@@ -1,5 +1,0 @@
-<template>
-    <h1>Mail list {{ letter }}</h1>
-</template>
-<script setup>
-</script>
