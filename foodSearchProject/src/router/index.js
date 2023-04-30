@@ -1,7 +1,5 @@
 import {createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
-import About from '../views/About.vue';
-import MailList from '../views/MailList.vue';
 import DefaultLayout from '../components/DefaultLayout.vue';
 import GuestLayout from '../components/GuestLayout.vue';
 import MealsByName from '../views/MealsByName.vue';
