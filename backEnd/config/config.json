@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "us1",
+    "password": "us1",
+    "database": "usDb",
+    "host": "127.0.0.1",
+    "dialect": "sqlite"
+  }
+}
